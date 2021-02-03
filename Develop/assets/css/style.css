@@ -26,17 +26,17 @@ header h1 .seo {
 
 header {
     padding-top: 15px;
-    margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    width:100%;
 }
 
 header nav ul li {
     list-style-type: none; 
     display: inline-block;
-    margin-left: 25px;
-    width: max-content;
+    margin-left: 175px;
+    flex-direction: row;
 }
 
 a {
@@ -48,8 +48,9 @@ p {
     font-size: 16px;
 }
 
-.hero {
-    height: 800px;
+.Marketing-Meeting {
+    padding-top: 20px;
+    height: 700px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
