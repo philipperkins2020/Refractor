@@ -32,7 +32,7 @@ header {
     font-size: 20px;
 }
 
-Header nav ul {
+header nav ul li {
     list-style-type: none; 
     display: inline-block;
     margin-left: 25px;
@@ -51,7 +51,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("./images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
